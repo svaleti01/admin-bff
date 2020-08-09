@@ -44,4 +44,4 @@ partOf: ""
 
 connectsTo: "admin"
 
-runtime: "node"
+runtime: "nodejs"
