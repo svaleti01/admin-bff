@@ -38,7 +38,7 @@ var root = {
 var app = express();
 app.use(cors());
 app.use(
-  "/graphql",
+  "/admin/graphql",
   graphqlHTTP({
     schema: schema,
     rootValue: root,
